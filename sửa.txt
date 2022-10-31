@@ -1,0 +1,18 @@
+					
+//Thay đoạn dưới đây cho đoạn từ dòng 108 -> 110
+if(distance(i,c,V,arr)<min) 
+{
+	trc1[i] = m;
+	n1 = i;
+	min = distance(i,c,V,arr);
+}
+
+//Thay đoạn dưới đây cho đoạn từ dòng 145 -> 147
+if(distance(i,d,V,arr)<min)
+{
+	trc2[i] = p;
+	n2 = i;
+	min = distance(i,d,V,arr);
+}
+
+// Add thêm đoạn ",min = INF" vào sau biến m = n1 ở dòng 102 và sau biến p = n2 ở dòng 139
